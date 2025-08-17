@@ -268,7 +268,7 @@ def main():
             
             # 主控制循环
             while True:
-                motor.run_openloop(target_velocity=15)  # 5 rad/s
+                motor.run_openloop(target_velocity=5)  # 5 rad/s
                 time.sleep(0.001)  # 1ms循环周期
                 
     except KeyboardInterrupt:
